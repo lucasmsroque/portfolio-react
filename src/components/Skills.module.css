@@ -1,0 +1,5 @@
+.row { display: grid; gap: .5rem; padding: 1.1rem 0; border-top: 1px solid var(--line); }
+.row h3 { font-size: 1.15rem; margin: 0; }
+.row ul { list-style: none; display: flex; flex-wrap: wrap; gap: .5rem; margin: 0; padding: 0; }
+.row li { border: 1px solid var(--accent); color: var(--accent); padding: .15rem .7rem; border-radius: 4px; }
+@media (min-width: 720px) { .row { grid-template-columns: 14rem 1fr; } }

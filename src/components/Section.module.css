@@ -1,0 +1,2 @@
+.section { max-width: 64rem; margin: 0 auto; padding: 4.5rem 1.25rem 1rem; }
+.section h2 { font-size: clamp(1.7rem, 4vw, 2.3rem); border-bottom: 3px solid var(--mark); display: inline-block; padding-bottom: .15em; margin-bottom: 1.5rem; }
